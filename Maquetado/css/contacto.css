@@ -1,0 +1,80 @@
+.contact-form-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-col {
+    margin: 50px;
+    width: 100%;
+}
+
+.form-title {
+    margin-bottom: 30px;
+}
+
+.btn-form,
+.btn-form:hover {
+    background-color: #FF7D2D;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* Banner */
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.banner-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn-banner,
+.btn-banner:hover {
+    background-color: #FF7D2D;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.btn-banner:hover {
+    background-color: #ff7d2ddc;
+}
+
+.networks-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.networks-icon {
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.networks-icon a {
+    color: #FF7D2D;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-form-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .banner-title {
+        padding: 0 10px 50px 10px;
+    }
+
+}

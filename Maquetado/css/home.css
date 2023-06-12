@@ -1,0 +1,75 @@
+/* Ads */
+.ads-container {
+    background-color: #333;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 10px 0 4px 0;
+    text-align: center;
+}
+
+/* Slider principal */
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 60px;
+    top: 50%;
+}
+
+.prevBtn, .nextBtn {
+    width: 60px;
+    height: 60px;
+}
+
+.slider-text-container {
+    padding-left: 30px;
+    text-align: left;
+    top: 50%;
+}
+
+.slider-title {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.slider-text {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.carousel-item img {
+    height: 86vh;
+    object-fit: cover;
+}
+
+.btn-slider, .btn-slider:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.btn-slider:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.aw-card-title {
+    align-items: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .ads-container, .home-slider {
+        display: none;
+    }
+}

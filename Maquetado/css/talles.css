@@ -1,0 +1,106 @@
+.talles-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Tabla de talles */
+.page-subtitle {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.list-container {
+    background-color: #cae0cb;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header-row {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.instructions-container,
+.details-container {
+    padding: 0 50px;
+}
+
+.details-container {
+    text-align: center;
+}
+
+.instructions-title-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.instructions-title {
+    font-size: 30px;
+}
+
+.list-item {
+    font-size: 20px;
+}
+
+.details {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Tabla de talles referenciales */
+.img-container {
+    padding: 0 20px;
+}
+
+.img-container img {
+    margin-bottom: 10px;
+}
+
+.col {
+    border: 1px solid #a9b8ab;
+}
+
+.hideDesktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 950px) {
+    .talles-container {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .list-container {
+        margin: 20px;
+    }
+
+    .container {
+        max-width: 90%;
+        margin: 20px auto !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .instructions-container {
+        padding: 0 5px;
+    }
+
+    .list-talles {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .list-item-talles {
+        list-style: none !important;
+    }
+
+    .hideMobile {
+        display: none;
+    }
+}
