@@ -61,6 +61,12 @@
     width: 150px;
 }
 
+.link, .link:hover {
+    color: #FF7D2D;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /* AW23 */
 .aw-container {
     align-items: center;
